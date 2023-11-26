@@ -1,6 +1,6 @@
 ## Урок 3. Классы и объекты
 
-- Построить три класса ([базовый](src/main/java/ru/geekbrains/core/lesson3/Worker.java) и 2 потомка), описывающих некоторых [работников с почасовой оплатой](src/main/java/ru/geekbrains/core/lesson3/HourlyWorker.java) (один из потомков) и [фиксированной оплатой](src/main/java/ru/geekbrains/core/lesson3/FixedWorker.java) (второй потомок).
+- Построить три класса ([базовый](src/main/java/ru/geekbrains/core/lesson3/Human.java) и 2 потомка), описывающих некоторых [работников с почасовой оплатой](src/main/java/ru/geekbrains/core/lesson3/Freelancer.java) (один из потомков) и [фиксированной оплатой](src/main/java/ru/geekbrains/core/lesson3/Worker.java) (второй потомок).
   - Описать в базовом классе абстрактный метод для расчёта среднемесячной заработной платы.
   ```java
    public abstract double calculateAverageSalary();
